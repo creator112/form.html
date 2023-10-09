@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>FORM REGISTRATION</h1>
+    <P>Please fill out the form with required information</P>
+    <form action="" method=" post">
+        <fieldset>
+            <label for="first-name">
+                First name
+                <input type="text" name="first-name" id="first-name" required>
+            </label>
+            <label for="middle-name">
+                Middle name
+                <input type="text" name="middle-name" id="middle-name" required>
+            </label>
+            <label for="last-name" required>
+                Last name
+                <input type="text" name="last-name" id="last-name" required>
+            </label>
+            <label for="password">Creat a new password
+                <input type="password" pattern="[a-z0-5]{8}">
+            </label>
+        </fieldset>
+        <fieldset name="account-type">
+            <label for="business-account">
+                <input type="radio" name="account-type" class="inline">Business Account
+            </label>
+            <label for="personal-account">
+                <input type="radio" name="account-type" class="inline" id="account-type">Personal Account
+            </label><label for="checkbox">
+                <input type="checkbox" name="terms" class="inline" id="terms">I ACCEPT THE <a href="">TERMS AND CONDITONS</a>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="">input your Age here(Years);
+                <input type="number" min="12" max="90" name="Age" required>
+            </label>
+        </fieldset>
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>

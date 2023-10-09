@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: aliceblue    ;
+}
+p, h1{
+    text-align: center;
+    font-size: 1em;
+}
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+form{
+    width: 60vm;
+    min-width: 500px;
+    max-width: 300px;
+}
+fieldset{
+    /* border: none; */
+    border-bottom: 3px solid rgb(158, 105, 207)
+    padding: 1rem 0;
+}
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
